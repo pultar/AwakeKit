@@ -59,8 +59,6 @@ public func sendMagicPacket(to macAddress: String, broadcast: String = "255.255.
     }
     
     close(fd)
-    
-    print("hello")
 }
 
 private func createMagicPacket(macAddress: String) -> [CUnsignedChar] {
