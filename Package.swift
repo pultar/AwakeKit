@@ -4,18 +4,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "WakeOnLan",
+    name: "awake-kit",
     products: [
         .library(
-            name: "WakeOnLan",
-            targets: ["WakeOnLan"]),
+            name: "AwakeKit",
+            targets: ["AwakeKit"]),
     ],
     targets: [
         .target(
-            name: "WakeOnLan"),
+            name: "AwakeKit"),
         .testTarget(
-            name: "WakeOnLanTests",
-            dependencies: ["WakeOnLan"]
+            name: "AwakeKitTests",
+            dependencies: ["AwakeKit"]
         ),
     ]
 )
